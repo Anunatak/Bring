@@ -11,7 +11,7 @@ Install using composer:
 
 This package is compatible with Laravel 5.
 
-Add the service provider in `app/config/app.php`:
+Add the service provider in `config/app.php`:
 
     'Anunatak\Bring\BringServiceProvider',
 
