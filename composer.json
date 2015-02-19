@@ -1,6 +1,7 @@
 {
     "name": "anunatak/bring",
-    "description": "",
+    "description": "An implementation of the Bring API for Laravel",
+    "keywords": ["bring", "laravel", "shipping"],
     "authors": [
         {
             "name": "Anunatak",
