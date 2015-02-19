@@ -24,6 +24,8 @@ class Bring {
 	/**
 	 * Retrieve information about a postcode
 	 * 
+	 * @see http://developer.bring.com/api/postalcodeapi.html#json
+	 * 
 	 * @param int $postalCode A valid postal code
 	 * @param string $country The country code
 	 * 
@@ -49,6 +51,8 @@ class Bring {
 	/**
 	 * Retrieves list of the alternative locations for package pickup near a postal code
 	 * 
+	 * @see http://developer.bring.com/api/pickuppointapi.html#json
+	 * 
 	 * @param int $postalCode A valid postal code
 	 * @param string $country The country code
 	 * 
@@ -71,6 +75,8 @@ class Bring {
 	 * Retrieves the tracking history of a tracking number
 	 * 
 	 * Only works for packages in Norway
+	 * 
+	 * @see http://developer.bring.com/api/trackingapi.html#json
 	 * 
 	 * @param string $trackingNumber A valid tracking number
 	 * 
