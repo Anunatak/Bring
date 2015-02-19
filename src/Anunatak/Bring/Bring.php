@@ -13,7 +13,7 @@ class Bring {
 	 */
 	protected static $endpoint = 'https://api.bring.com/';
 
-	/**
+	/** 
 	 * The endpoint to the API for tracking calls
 	 * 
 	 * @var string Endpoint URL
