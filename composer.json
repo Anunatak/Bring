@@ -1,0 +1,21 @@
+{
+    "name": "anunatak/bring",
+    "description": "",
+    "authors": [
+        {
+            "name": "Anunatak",
+            "email": "web@anunatak.no"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "guzzlehttp/guzzle": "~5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Anunatak\\Bring": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
